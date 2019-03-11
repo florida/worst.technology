@@ -4,11 +4,6 @@ body {
 .rainbow { 
   height: 100%;
   width: 100%;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
 background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
 background-size: 1800% 1800%;
 text-align: center;
@@ -20,8 +15,11 @@ text-align: center;
 }
 
 .rainbow h1 {
-  margin-top: 50vh;
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.worst-container {
+  
 }
 
 @-webkit-keyframes rainbow {
