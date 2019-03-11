@@ -1,0 +1,2 @@
+alert("the");
+alert("worst");
